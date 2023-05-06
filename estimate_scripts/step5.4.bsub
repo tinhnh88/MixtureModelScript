@@ -1,0 +1,6 @@
+#BSUB -J iq4x_step5.4
+#BSUB -n 36
+#BSUB -R "span[hosts=1]"
+#BSUB -q normal
+#BSUB -m "fit01 fit02 fit03 fit04 fit05 fit08 fit09 fit10 fit11 fit12 fit13 fit14 fit15 fit16"
+sh step5.4.sh
